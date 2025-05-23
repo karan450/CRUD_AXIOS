@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+
+html,body,.App {
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 26px;
+}
+
+button{
+  background-color: aliceblue;
+  color: black;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  font-size: inherit;
+  outline: none;
+  border: none;
+}
+
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  justify-content: center;
+  row-gap: 20px;
+}
